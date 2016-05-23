@@ -1,13 +1,14 @@
 #include <iostream>
 #include "Widget.h"
+#include "Factory.h"
 #include "ButtonFactory.h"
 
 int main(int argc, const char * argv[])
 {
-	ButtonFactory* TheCreatorWin = new  ButtonFactory(true);
+	Factory* TheCreatorWin = new  ButtonFactory(true);
 	TheCreatorWin->CreateWindow()->draw();
 
-	ButtonFactory* TheCreatorOSX = new  ButtonFactory(false);
+	Factory* TheCreatorOSX = new  ButtonFactory(false);
 	TheCreatorOSX->CreateWindow()->draw();
 
 	delete TheCreatorWin;

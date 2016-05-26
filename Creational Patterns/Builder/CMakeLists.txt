@@ -1,4 +1,4 @@
-project(AbstractFactory)
+project(Builder)
 cmake_minimum_required(VERSION 2.8)
 
 #enable c++11 features
@@ -24,6 +24,8 @@ endif()
 
 #include all headers files from current dir
 file(GLOB HEADER_FILES   "*.h")
+#include all headers files from current dir
+file(GLOB HEADER_FILES   "*.hpp")
 
 #include all cpp files from current dir
 aux_source_directory(. SRC_LIST)

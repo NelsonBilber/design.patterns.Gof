@@ -1,4 +1,5 @@
-#Singleton
+#Adapter 
 
-The infamous singleton.</br>
-Ensures only one instance of a particular class.
+When an existing class, and its interface does not match
+</br>
+Reuse a class that cooperates with unrelated classes

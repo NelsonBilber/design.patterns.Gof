@@ -1,3 +1,3 @@
 #Interpreter
-Define a grammar for intructions that form a part of a language or notation, allowing
-thr grammar to be easily extended.
+Define a grammar for instructions that form a part of a language or notation, allowing
+the grammar to be easily extended.

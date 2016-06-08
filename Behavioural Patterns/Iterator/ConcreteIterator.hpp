@@ -2,6 +2,7 @@
 #define ConcreteIterator_hpp
 
 #include "IteratorBase.hpp"
+#include "ConcreteAggregator.hpp"
 
 class ConcreteAggregator;
 
@@ -12,39 +13,17 @@ private:
 	int _position;
 
 public:
-	ConcreteIterator(){}
+    ConcreteIterator();
 
-    ConcreteIterator(ConcreteAggregator* c){
-        a = c;
-        _position = 0;
-     }
+    ConcreteIterator(ConcreteAggregator* c);
+    
+    virtual string First();
 
-     virtual string First()
-     {
-        _position = 0;
-        return CurrentItem();
-     }
-
-
-     virtual string Next()
-     {
-       _position++;
-       return CurrentItem();
-     }
-
-     virtual string CurrentItem()
-     {
-       if(_position < a->Count())
-			return a->GetItem(_position);
-       else
-			return nullptr;
-     }
-
-     virtual bool IsDone()
-     {
-       return _position >= a->Count();
-     }
-
+    virtual string Next();
+    
+    virtual string CurrentItem();
+    
+    virtual bool IsDone();
 
 };
 

@@ -1,16 +1,19 @@
 #include <iostream>
 #include <string>
 
-#include "ConcreteAggregator.hpp"
 #include "IteratorBase.hpp"
+#include "ConcreteAggregator.hpp"
+
 
 using namespace std;
 
 int main(int argc, const char * argv[])
 {
 	ConcreteAggregator ca;
-	ca.add(string("uno"));
-	ca.add(string("dooos"));
+    string s1("1");
+    string s2("2");
+	ca.add(s1);
+	ca.add(s2);
 
   IteratorBase* iterator = ca.CreateIterator();
   cout << (string)iterator->First() << endl;

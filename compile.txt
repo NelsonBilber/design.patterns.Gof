@@ -1,4 +1,4 @@
-All C++ code was build to be cross-platform compatible I have used CMake wich is by the way a great tool.
+All C++ code was build to be cross-platform compatible I have used CMake which is by the way a great tool.
 
 
 Unix

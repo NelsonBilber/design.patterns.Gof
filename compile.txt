@@ -18,7 +18,7 @@ Go to folder where is CMakeList.txt file
 mkdir build
 cd build
 cmake -G "XCode" ../
-open project.xproject
+open project.xcodeproj
 compile as normal Xcode project
 
 

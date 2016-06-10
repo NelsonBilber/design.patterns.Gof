@@ -2,10 +2,10 @@
 
 How object communicate between them.
 
-- __**Chain-of-responsibility:**__
+- **Chain-of-responsibility:**
 Pass the request along the chain until and object handlers it.
 
-* **Command: **
+* **Command:**
 Encapsulate a request from the invoker in objects
 Object-oriented replacement for callbacks
 

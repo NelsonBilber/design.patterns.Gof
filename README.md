@@ -2,7 +2,7 @@
 
 How object communicate between them.
 
-- **Chain-of-responsibility: **
+- __**Chain-of-responsibility: **__
 Pass the request along the chain until and object handlers it.
 
 * **Command: **

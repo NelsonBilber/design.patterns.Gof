@@ -3,7 +3,7 @@
 How object communicate between them.
 
 - **Chain-of-responsibility:**
-Pass the request along the chain until and object handlers it.
+Pass the request along the chain until and object handle it.
 
 * **Command:**
 Encapsulate a request from the invoker in objects

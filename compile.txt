@@ -1,0 +1,32 @@
+All C++ code was build to be cross-platform compatible I have used CMake which is by the way a great tool.
+
+
+Unix
+====
+Go to folder where is CMakeList.txt file
+mkdir build
+cd build
+cmake -G "Unix Makefiles" ../
+make
+./run some program
+
+
+
+OSX
+===
+Go to folder where is CMakeList.txt file
+mkdir build
+cd build
+cmake -G "XCode" ../
+open project.xcodeproj
+compile as normal Xcode project
+
+
+... and Windows
+===============
+Go to folder where is CMakeList.txt file
+mkdir build
+cd build
+cmake ../
+open project.sln
+compile as normal Visual Studio project

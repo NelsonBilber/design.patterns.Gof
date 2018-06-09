@@ -1,4 +1,4 @@
-###Behavioural Patterns
+### Behavioural Patterns
 
 How object communicate between them.
 
@@ -37,7 +37,7 @@ Similar to Strategy pattern but we could define steps with individual implementa
 Separates a set of structured data from functionaliy that may be performed uppon it. It separates an algorithm from an object strucutr on which it operates.
 
 
-###Creational patterns
+### Creational patterns
 
 Provide ways to instantiate single objects or groups of related objects.
 
@@ -64,7 +64,7 @@ The infamous singleton.
 Ensures only one instance of a particular class.
 
 
-###Structural patterns
+### Structural patterns
 
 Solutions about object composition, interfaces, ..., how to define relationships between class 
 
